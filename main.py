@@ -99,7 +99,7 @@ st.markdown("""
 
 # Header
 st.title("🔮 Perspective Matters")
-st.subheader("Perspective Matters is a groundbreaking Flutter application that revolutionizes the way we engage with differing viewpoints")
+st.subheader("Grab Your Popcorn and Watch Engageful Debates on Any Topic.")
 
 # App description
 
@@ -147,7 +147,7 @@ st.image("workflow.png")
 
 # Add a border above the warning
 st.markdown('<div class="border"></div>', unsafe_allow_html=True)
-st.download_button(label="Click Here To Download The Prototype Of This App",
+st.download_button(label="Click Here To Download The Prototype",
                        data=open("perspectives.apk", "rb").read(),
                        file_name="perspectives.apk",
                        mime="application/vnd.android.package-archive", )
